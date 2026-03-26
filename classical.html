@@ -5,13 +5,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+   <h2>Classical Mechanics</h2>
+   <h4>Newton's three laws</h4>
    <p>Newton created 3 laws of that describe motion in classical physics. His first law is that objects will always keep the same speed in the same direction when there are no forces. His second law is the equation F=ma where F is the total force on an object, m is its mass, and a is the objects acceleration. Intuitively, it means that pushing objects with more force moves it more, and pushing heavier objects moves it less. Newton's third law is that all forces have an equivialent force in the opposite direction, like how both the moon and earth pull on each other with gravity.</p> 
    <img src="/image/fma.png" alt="F=MA equation" style="width: 128px;">
+   <h4>How Newtonian mechanics is used and what causes forces.</h4>
    <p>How Newton's laws are generally used is you add up all the forces on the object, and use a rearanged version of Newton's second law: a = F/m, to solve for its movement, by plugging in the total force and mass. On smaller scales, things that commonly apply forces are gravity, string tension, and normal forces, where the normal force is the force that prevents objects from falling into the ground.</p>
-   <img src="/image/forcespendulum.png" alt="A pendulum with forces on it" style="width: 128px;">
+   <a href="https://phet.colorado.edu/sims/html/pendulum-lab/latest/pendulum-lab_all.html"><img src="/image/forcespendulum.png" alt="A pendulum with forces on it" style="width: 128px;"></a>
+   <h6>Click the image to see a pendulum simulation</h6>
+   <h4>Lagrangian Mechanics</h4>
    <p>Lagrangian mechanics is an alternative way to do classical mechanics, where each path an object can take is assigned a value called the action. The action is calculated by finding the sum of a value called the lagrangian at each time on the path. The principle of stationary action states that the path that the object will actually take is the path where a small change in the path won't change the action of the path. Mathamaicians have already figured out that this path can be found using the Euler-Lagrange equation. To use lagrangian mechanics, you calculate the lagrangian and put it into the Euler-Lagrange equation, and solving it gives you the path of the object.</p>
    <img src="/image/stationary.png" alt="A picture showing many different paths between two points" style="width: 128px;">
-   <p>Each way of doing classical mechanics has its own advantages, this table gives the advantages of each method.</p>
+   <h4>Each way of doing classical mechanics has its own advantages, this table gives the advantages of each method.</h4>
    <table>
     <tr>
         <th>Newtonian mechanics</th>
@@ -43,7 +48,7 @@
     </tr>
    </table>
    <img src="/image/vectoraddition.jpg" alt="A picture showing the addition of two vectors" style="width: 128px;">
-   <h3>Question</h3>
+   <h5>Question</h5>
    <p>Suppose you wanted to model a triple pendulum, where there are three pendulums attatched in a chain. Which method would you use to model it?</p>
    <input type="button" onclick="alert('Lagrangian mechanics')" value="Click for answer">
 </body>
