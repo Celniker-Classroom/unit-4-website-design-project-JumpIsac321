@@ -1,7 +1,37 @@
-/* Add Global styles here */
-/*
-body {
-    background-color:rgb(25, 25, 25);
-    color: rgb(230, 230, 230)
+.pagetitle {
+    text-align: center;
 }
-*/
+
+a {
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+img {
+    width: 100px;
+    float: right;
+}
