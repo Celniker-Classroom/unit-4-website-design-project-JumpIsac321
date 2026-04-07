@@ -1,3 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .pagetitle {
     text-align: center;
 }
@@ -8,18 +13,25 @@ a {
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: #1b4643;
   overflow: hidden;
-  background-color: #333333;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar li {
     float: left;
 }
 
-.navbar li a{
+.navbar a{
     display: block;
     color: white;
     text-align: center;
@@ -27,10 +39,28 @@ a {
     text-decoration: none;
 }
 
-ul li a:hover {
+.navbar a:hover {
   background-color: #111111;
+}
+
+.navbar a.active {
+    background-color: rgb(32, 190, 190);
 }
 
 img {
     width: 100px;
+<<<<<<< HEAD
+=======
+}
+
+.p-with-img{
+    float: left; 
+    margin-top: 0px;
+    width: 500px;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+>>>>>>> b48a3d8 (Added navbar)
 }
