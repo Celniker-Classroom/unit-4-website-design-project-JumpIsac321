@@ -49,8 +49,6 @@ a {
 
 img {
     width: 100px;
-<<<<<<< HEAD
-=======
 }
 
 .p-with-img{
@@ -62,5 +60,24 @@ img {
 main {
     margin-left: 10%;
     margin-right: 10%;
->>>>>>> b48a3d8 (Added navbar)
+}
+
+.side-div-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.side-div-right {
+    float: left;
+}
+
+.match-height {
+    height: 320px;
+}
+
+.bordered {
+    border-style: solid;
+    border-color: rgb(0, 54, 105);
+    border-radius: 10px;
+    border-width: 3px;
 }
