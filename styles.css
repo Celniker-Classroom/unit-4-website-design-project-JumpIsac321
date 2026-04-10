@@ -54,7 +54,7 @@ img {
 .p-with-img{
     float: left; 
     margin-top: 0px;
-    width: 500px;
+    /*width: 500px;*/
 }
 
 main {
@@ -80,4 +80,17 @@ main {
     border-color: rgb(0, 54, 105);
     border-radius: 10px;
     border-width: 3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.container div {
+    max-width: 800px;
+    width: 100%;
+    padding: 10px;
 }
