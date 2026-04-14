@@ -3,15 +3,17 @@
 <head>
     <title>Classical Physics</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a class="active" href="classical.html">Classical Mechanics</a></li>
         <li><a href="electromagnetism.html">Electromagnetism</a></li>
         <li><a href="relativity.html">Relativity</a></li>
         <li><a href="quantum.html">Quantum Mechanics</a></li>
+        <li><button type="button" onclick="darkMode()"><img id="darkicon" src="image/moonicon.png" alt="a moon"></button></li>
       </ul>
     </nav>
     <main>
@@ -60,7 +62,8 @@
         <img src="/image/vectoraddition.jpg" alt="A picture showing the addition of two vectors" style="width: 128px;">
         <h5>Question</h5>
         <p>Suppose you wanted to model a triple pendulum, where there are three pendulums attatched in a chain. Which method would you use to model it?</p>
-        <input type="button" onclick="alert('Lagrangian mechanics')" value="Click for answer">
+        <button id="answerButton" type="button" onclick="toggleAnswer()">Click for answer</button>
+        <p style="display: none;" id="answer">Lagrangian mechanics</p>
     </main>
 </body>
 </html>

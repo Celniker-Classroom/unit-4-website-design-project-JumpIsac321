@@ -1,6 +1,6 @@
 body {
     padding: 0;
-    margin: 0;
+    margin: 0 0 10px 0;
     background-color: white;
     color: black;
 }
@@ -48,6 +48,7 @@ a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 0.4s;
 }
 
 .navbar button {
@@ -58,6 +59,7 @@ a {
 .navbar img {
     width: 35px;
     height: 35px;
+    transition: 0.4s;
 }
 
 .navbar a:hover {
@@ -115,3 +117,8 @@ main {
     width: 100%;
     padding: 10px;
 }
+
+#answerButton {
+    display: inline;
+}
+
