@@ -1,6 +1,13 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
 }
 
 .pagetitle {
@@ -10,6 +17,10 @@ body {
 a {
     text-decoration-line: none;
     font-weight: bold;
+}
+
+.dark-mode a{
+    color: #3a8dd6;
 }
 
 .navbar {
@@ -37,6 +48,16 @@ a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.navbar button {
+    display: block;
+    background-color: #111111;
+}
+
+.navbar img {
+    width: 35px;
+    height: 35px;
 }
 
 .navbar a:hover {
