@@ -74,10 +74,16 @@ img {
     width: 100px;
 }
 
-.p-with-img{
-    float: left; 
-    margin-top: 0px;
-    /*width: 500px;*/
+.p-with-img-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.p-with-img-container p {
+    width: 50%;
 }
 
 main {
