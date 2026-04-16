@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
     padding: 0;
     margin: 0 0 10px 0;
     background-color: white;
     color: black;
 }
+
+* {
+  font-family: "Noto Serif", sans-serif;
+}
+
 
 .dark-mode {
     background-color: black;
@@ -78,17 +86,18 @@ img {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
 .p-with-img-container p {
-    width: 50%;
+    margin-top: 0;
+    width: 75%;
 }
 
 main {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .side-div-left {
@@ -128,3 +137,6 @@ main {
     display: inline;
 }
 
+h3 {
+    text-align: center;
+}
