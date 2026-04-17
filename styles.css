@@ -78,10 +78,6 @@ a {
     background-color: rgb(32, 190, 190);
 }
 
-img {
-    width: 100px;
-}
-
 .p-with-img-container {
     display: flex;
     flex-wrap: nowrap;
@@ -92,7 +88,25 @@ img {
 
 .p-with-img-container p {
     margin-top: 0;
-    width: 75%;
+    margin-right: 5px;
+    max-width: 75%;
+}
+
+.p-with-img-container ol {
+    margin-top: 0;
+    margin-right: 5px;
+    max-width: 75%;
+}
+
+.p-with-img-container ul {
+    margin-top: 0;
+    margin-right: 5px;
+    max-width: 75%;
+}
+
+.p-with-img-container img {
+    height: auto;
+    width: 25%;
 }
 
 main {
