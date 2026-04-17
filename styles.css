@@ -107,6 +107,7 @@ a {
 .p-with-img-container img {
     height: auto;
     width: 25%;
+    max-width: 200px;
 }
 
 main {
