@@ -17,8 +17,10 @@
       </ul>
     </nav>
     <main>
+        <!--Here the website is a little simpler than the main page as it is just headings and then paragraphs with images-->
         <h2 class="pagetitle"">Classical Mechanics</h2>
         <h3>Newton's three laws</h3>
+        <!--Here is the recuring pattern of this container being used again-->
         <div class="p-with-img-container">
             <p>Newton created 3 laws of that describe motion in classical physics. His first law is that objects will always keep the same speed in the same direction when there are no forces. His second law is the equation F=ma where F is the total force on an object, m is its mass, and a is the objects acceleration. Intuitively, it means that pushing objects with more force moves it more, and pushing heavier objects moves it less. Newton's third law is that all forces have an equivialent force in the opposite direction, like how both the moon and earth pull on each other with gravity.</p> 
             <img src="image/classical/fma.png" alt="F=MA equation" style="width: 128px;">
@@ -29,6 +31,7 @@
             <a href="https://phet.colorado.edu/sims/html/pendulum-lab/latest/pendulum-lab_all.html"><img src="image/classical/forcespendulum.png" alt="A pendulum with forces on it" style="width: 128px;"></a>
         </div>
         <h6>Click the image to see a pendulum simulation</h6>
+        <br>
         <h3>Lagrangian Mechanics</h3>
         <div class="p-with-img-container">
             <p>Lagrangian mechanics is an alternative way to do classical mechanics, where each path an object can take is assigned a value called the action. The action is calculated by finding the sum of a value called the Lagrangian at each time on the path. The principle of stationary action states that the path that the object will actually take is the path where a small change in the path won't change the action of the path. Mathematicians have already figured out that this path can be found using the Euler-Lagrange equation. To use Lagrangian mechanics, you calculate the Lagrangian and put it into the Euler-Lagrange equation, and solving it gives you the path of the object.</p>
@@ -69,6 +72,7 @@
         <h5>Question</h5>
         <p>Suppose you wanted to model a triple pendulum, where there are three pendulums attatched in a chain. Which method would you use to model it?</p>
         <button id="answerButton" type="button" onclick="toggleAnswer()">Click for answer</button>
+        <!--The paragraph needs to be styled inline so that the javascript works correctly-->
         <p style="display: none;" id="answer">Lagrangian mechanics</p>
     </main>
 </body>

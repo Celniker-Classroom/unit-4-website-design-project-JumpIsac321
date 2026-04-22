@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+/* These are the properties that apply to the webpage to set the base text color and get rid of the default padding and margin around the body*/
 body {
     padding: 0;
     margin: 0 0 10px 0;
@@ -12,25 +12,13 @@ body {
   font-family: "Noto Serif", sans-serif;
 }
 
-
+/*This element is applied by javascript*/
 .dark-mode {
     background-color: black;
     color: white;
 }
 
-.pagetitle {
-    text-align: center;
-}
-
-a {
-    text-decoration-line: none;
-    font-weight: bold;
-}
-
-.dark-mode a{
-    color: #3a8dd6;
-}
-
+/* These rulesets are for the navbar to format it correctly using a flexbox*/
 .navbar {
   position: sticky;
   top: 0;
@@ -78,6 +66,7 @@ a {
     background-color: rgb(32, 190, 190);
 }
 
+/* This is the important container class that is used througout the webiste to place images and paragraphs side by side*/
 .p-with-img-container {
     display: flex;
     flex-wrap: nowrap;
@@ -110,22 +99,11 @@ a {
     max-width: 200px;
 }
 
-main {
-    margin-left: 20%;
-    margin-right: 20%;
-}
+/* These elements are used on the main page to create to two boxes with two descriptions each */
 
 .side-div-left {
     float: left;
     margin-right: 20px;
-}
-
-.side-div-right {
-    float: left;
-}
-
-.match-height {
-    height: 320px;
 }
 
 .bordered {
@@ -148,10 +126,64 @@ main {
     padding: 10px;
 }
 
+/* This is for the answer button to display inline so that the answer apears next to it */
 #answerButton {
     display: inline;
 }
 
+/* This centers the paragraph headers */
 h3 {
     text-align: center;
+}
+
+/* This adds borders to the table */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* These are for the quantum physics page to set the layout using floats instead of flexboxes */
+.left-p{
+    float: left;
+    width: 75%;
+    clear: left;
+}
+
+.right-img{
+    float: left;
+    width: 25%;
+}
+
+.floating-heading{
+    float: left;
+    clear: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* This centers the title of a page */
+.pagetitle {
+    text-align: center;
+}
+
+/* This replaces the underline on links with a bold font weight */
+a {
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+/* This changes the color of links during dark mode */
+.dark-mode a{
+    color: #3a8dd6;
+}
+
+/* h6 is used as an image caption, but the image is on the right, so the caption has to float right to be under the image */
+h6 {
+    float: right;
+}
+
+/* this sets margins around the main page */
+main {
+    margin-left: 20%;
+    margin-right: 20%;
 }
